@@ -1,0 +1,12 @@
+.navigator {
+  position: fixed;
+  align-items: center;
+  background-color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: white;
+  display: flex;
+  height: 4vh;
+  justify-content: space-around;
+  width: 100vw;
+  z-index: 1;
+}

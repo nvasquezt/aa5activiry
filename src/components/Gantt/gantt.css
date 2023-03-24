@@ -1,0 +1,10 @@
+.react-pdf__Page__annotations.annotationLayer {
+  display: none;
+}
+.homeHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2.5rem;
+}
