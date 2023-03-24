@@ -1,6 +1,6 @@
 import React from "react";
 import { Document, Page, pdfjs } from "react-pdf";
-import gantt from "../../assets/revista.pdf";
+import gantt from "../../assets/gantt.pdf";
 import "./gantt.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 

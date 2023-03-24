@@ -7,6 +7,7 @@ import {
   GANTT,
   INDICATORS,
   REFERENCES,
+  ABOUT,
 } from "../../constants";
 import NavigationBar from "../NavigationBar";
 import Home from "../Home";
@@ -15,6 +16,7 @@ import Planning from "../Planning";
 import Gantt from "../Gantt";
 import Indicators from "../Indicators";
 import References from "../References";
+import About from "../About";
 
 const MainRouter = () => {
   return (
@@ -27,6 +29,7 @@ const MainRouter = () => {
         <Route path={GANTT} element={<Gantt />} />
         <Route path={INDICATORS} element={<Indicators />} />
         <Route path={REFERENCES} element={<References />} />
+        <Route path={ABOUT} element={<About />} />
       </Routes>
     </BrowserRouter>
   );

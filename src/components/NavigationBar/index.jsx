@@ -7,6 +7,7 @@ import {
   GANTT,
   INDICATORS,
   REFERENCES,
+  ABOUT,
 } from "../../constants";
 import "./navigator.css";
 
@@ -15,10 +16,11 @@ const NavigationBar = () => {
     <nav className="navigator">
       <NavLink to={HOME}>Revista</NavLink>
       <NavLink to={ORGANIZATION}>Organización</NavLink>
-      <NavLink to={PLANNING}>Planificación</NavLink>
-      <NavLink to={GANTT}>Gantt</NavLink>
+      <NavLink to={PLANNING}>Planeaciones</NavLink>
+      <NavLink to={GANTT}>Plan Operativo</NavLink>
       <NavLink to={INDICATORS}>Indicadores</NavLink>
       <NavLink to={REFERENCES}>Referencias</NavLink>
+      <NavLink to={ABOUT}>Video</NavLink>
     </nav>
   );
 };
